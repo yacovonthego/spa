@@ -18,6 +18,12 @@ module.exports = {
         port: 4200
     },
 
+    resolve: {
+        alias: {
+            'framework': path.join(__dirname, 'src/core')
+        }
+    },
+
     plugins: [
         new HTMLWebpackPlugin({
             title: 'SPA',

@@ -1,4 +1,4 @@
-import { VModule } from "../core/index";
+import { VModule } from "framework";
 import { appComponent } from "./app.component";
 import {appHeader} from "./common/app.header";
 import {routes as appRoutes} from "./app.routes";

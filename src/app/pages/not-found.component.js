@@ -1,9 +1,12 @@
-import {VComponent} from "../../core/index";
+import {VComponent} from "framework";
 
 class NotFound extends VComponent {
     constructor(config) {
         super(config);
+    }
 
+    afterInit() {
+        // console.log(this)
     }
 
 }

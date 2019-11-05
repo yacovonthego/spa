@@ -1,4 +1,4 @@
-const tool = {
+const _ = {
     delay (ms = 1000) {
         return new Promise((res, rej) => {
             setTimeout(() => {
@@ -8,7 +8,13 @@ const tool = {
     },
     isUndefined(d) {
         return typeof d === 'undefined'
+    },
+    isNull(d) {
+        return d === null;
+    },
+    isString(d) {
+        return typeof d === 'string'
     }
 }
 
-export { tool }
+export { _ }

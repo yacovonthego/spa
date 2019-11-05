@@ -1,3 +1,8 @@
 .pl10 {
     padding-left: 10px;
 }
+.preloader-wrapper.big {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

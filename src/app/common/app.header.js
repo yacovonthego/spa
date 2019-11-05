@@ -1,4 +1,4 @@
-import {VComponent} from "../../core/index";
+import { VComponent } from "framework";
 
 class AppHeader extends VComponent {
     constructor(config) {
@@ -16,7 +16,6 @@ export const appHeader = new AppHeader({
               <a href="#" class="brand-logo">
                 <span class="pl10">SPA</span>
               </a>
-              
             </div>
           </nav>
         </div>

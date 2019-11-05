@@ -1,4 +1,4 @@
-import { VComponent } from "../core/index";
+import { VComponent } from "framework";
 import './css/reset.css'
 import '../../node_modules/materialize-css/dist/css/materialize.min.css'
 import './css/main.css'

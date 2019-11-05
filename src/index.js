@@ -1,7 +1,6 @@
-import { bootstrap } from "./core/parts/bootstrap";
+import { bootstrap, _ } from "framework";
 import { appModule } from "./app/app.module";
-import { tool } from './core/index'
 
-tool.delay().then(() => {
+_.delay().then(() => {
     bootstrap(appModule);
 });
