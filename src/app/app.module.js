@@ -2,6 +2,7 @@ import { VModule } from "framework";
 import { appComponent } from "./app.component";
 import {appHeader} from "./common/app.header";
 import {routes as appRoutes} from "./app.routes";
+import {appCollection} from "./common/app.collection";
 
 class AppModule extends VModule {
     constructor(config) {
