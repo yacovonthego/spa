@@ -1,8 +1,18 @@
 .pl10 {
     padding-left: 10px;
 }
-.preloader-wrapper.small {
+.preloader-wrapper.small, .preloader-wrapper.big  {
     position: absolute;
     top: 50%;
     left: 50%;
 }
+.card .card-title {
+    font-weight: 500;
+}
+.card:hover {
+    bottom: 10px;
+}
+.navbar-fixed {
+    margin-bottom: 30px;
+}
+/* style fixes for materialize css and a couple of useful classes */

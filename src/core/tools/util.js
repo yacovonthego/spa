@@ -1,3 +1,7 @@
+import {$} from "./dom";
+
+// all-in-one utility
+
 const _ = {
     delay (ms = 1000) {
         return new Promise((res, rej) => {
@@ -14,6 +18,11 @@ const _ = {
     },
     isString(d) {
         return typeof d === 'string'
+    },
+    removePreloader() {
+        const preloader = $('.preloader');
+        if (_.isNull(preloader.nativeElement)) return
+        preloader.nativeElement.remove();
     }
 }
 

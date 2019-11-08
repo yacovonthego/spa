@@ -1,6 +1,8 @@
 import {_} from "../../tools/util";
 import {RoutingModule} from "./routing.module";
 
+// helper for router
+
 export function initRouting(routes) {
     if (_.isUndefined(routes)) return
 

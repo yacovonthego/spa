@@ -1,14 +1,11 @@
 import {VComponent} from "framework";
 
+// simple 404 Error handler component
+
 class NotFound extends VComponent {
     constructor(config) {
         super(config);
     }
-
-    afterInit() {
-        // console.log(this)
-    }
-
 }
 
 export const notFound = new NotFound({

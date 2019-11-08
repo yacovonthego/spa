@@ -3,6 +3,7 @@ import './css/reset.css'
 import '../../node_modules/materialize-css/dist/css/materialize.min.css'
 import './css/main.css'
 
+// root component to render
 
 class AppComponent extends VComponent {
     constructor(config) {

@@ -3,6 +3,5 @@ import {renderComponent} from "./render-component";
 
 export function initComponents(bootstrap, components) {
     if (_.isUndefined(bootstrap)) throw new Error('bootstrap component is not defined');
-    [ bootstrap, ...components ].forEach(renderComponent);
-    // console.log(components);
+    [ bootstrap, ...components ].forEach(renderComponent); // just rendering every passed component
 }

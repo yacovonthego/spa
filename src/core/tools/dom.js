@@ -1,4 +1,7 @@
 import { _ } from './util'
+
+// small jquery'like implement in case of future usage
+
 class DOMManipulator {
     constructor(el) {
         if (_.isString(el)) el = document.querySelector((el));
